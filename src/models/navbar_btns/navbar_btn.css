@@ -1,0 +1,43 @@
+
+.navbar_btns{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.btn_nav{
+    position: relative;
+    padding: 15px 50px;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 1;
+    cursor: pointer;
+    outline: 0;
+    overflow:hidden;
+    transition: 0.2s ease-in;
+    text-decoration: none;
+}
+.btn_nav:hover {
+    color: black;
+}
+
+.btn_nav:before {
+    content: "";
+    position: absolute;
+    background: #fff;
+    color:black;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 100%;
+    z-index: -1;
+    -webkit-transition: top 0.09s ease-in;
+}
+
+.btn_nav:hover:before {
+    top: 0;
+}

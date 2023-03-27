@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #1d1d1d;
+    user-select: none;
+}
+
+.wrapper{
+    margin: 0 auto;
+    max-width: 1800px;
+    margin-top: 30px;
+
+}

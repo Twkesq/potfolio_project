@@ -1,0 +1,51 @@
+.skill_text{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+
+
+    position: relative;
+    overflow: hidden;
+}
+
+.skill_text > span:before,
+.skill_text > span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-top: 2px solid white;
+    margin-top: .6em;
+}
+.skill_text > span:before {
+    margin-left: -102%;
+}
+.skill_text > span:after {
+    margin-left: 2%;
+}
+
+
+
+
+
+
+.skills_list{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.frontend_skills{
+
+    display: flex;
+    flex-direction: column;
+}
+
+.column_item{
+    display: flex;
+    margin: 10px 20px;
+}
+
+
+

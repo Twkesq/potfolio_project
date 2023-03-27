@@ -1,0 +1,43 @@
+.lineUpAnim {
+    animation: 2s anim-lineRight ease-out ;
+}
+@keyframes anim-lineRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50%);
+    }
+    20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+
+.lineUpAnim2 {
+    animation: 2s anim-lineLeft ease-out;
+}
+
+@keyframes anim-lineLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}

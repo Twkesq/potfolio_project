@@ -1,0 +1,38 @@
+.AboutMe{
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+.aboutme_text{
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    padding-top: 50px;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.aboutme_text > span:before,
+.aboutme_text > span:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    border-top: 2px solid white;
+    margin-top: .6em;
+}
+.aboutme_text > span:before {
+    margin-left: -102%;
+}
+.aboutme_text > span:after {
+    margin-left: 2%;
+}
+
+.aboutme_container{
+    color: #fff;
+}
+h3{
+    padding: 2px;
+}
